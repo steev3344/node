@@ -21,4 +21,4 @@ const db = mongoose.connection;
     app.use(bodyParser.json());
     const apiRouter = require("./src/routes/api");
     app.use("/api/v1",apiRouter);
-    app.listen("3000",()=>console.log("server started"));
+    app.listen("3000",()=>console.log("server started on"));
