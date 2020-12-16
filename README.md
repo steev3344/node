@@ -8,7 +8,9 @@ Make sure to add 'TOKEN_SECRET'  in `.env`.
 
 ## Quick Start
 // Install dependencies for server
+
 npm i
 
 //starting server
+
 npm start
